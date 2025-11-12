@@ -39,8 +39,16 @@ public class datatypesexam {
         char literalexampled = 'a';//einfache hochkomma und exakt ein zeichen
         System.out.println(literalexampled);
 
-        String literalexampletext = "Test \"scheiss Appel\" Text";//wichtig ist doppeltes hochkomma, mehrere zeichen
+        String literalexampletext = "Test \"scheiss \nApple\" Text";//wichtig ist doppeltes hochkomma, mehrere zeichen
         // Backslash lässt das nächste zeichen als einfaches zeichen, nicht als anweisung interpretieren, nennt man escape sequenz
         System.out.println(literalexampletext);
+
+        String htmlCode = "<htmL>\n" +
+                          "\t<head></head>\n...";
+        String htmlTextBlock = """
+                son zeugs halt
+                keine ahnung
+                wird schon passen
+                """;
     }
 }
